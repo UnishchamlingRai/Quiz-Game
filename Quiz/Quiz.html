@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <!--CSS Link-->
+    <link rel="stylesheet" href="Quiz.css">
+    
+    <!--Friconix-->
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+    <script defer src="https://friconix.com/cdn/friconix-0.2276.js"> </script>
+</head>
+<body>
+    <div class="start_quiz">Start Quiz</div>
+
+<!--/*===================quize Box=======================*/-->
+    <div class="quiz-box inactive">
+        <h2 class="que_text">1. What does HTML Stand for ?</h2>
+        <div class="options">
+            <!-- <div class="option">Hyper Text Multiple Language </div>
+            <div class="option incorrect">Hyper Text Preprocessor <i class="fa fi-cnsuxl-times-solid"></i></div>
+            <div class="option">Hyper Tool Multi Language</div>
+            <div class="option correct">Hyper Text Markup Language <i class="fa fi-cwsuxl-check"></i></div> -->
+        </div>
+
+        <div class="quiz_footer">
+            <div class="footer_left">
+                <span class="que_count"></span> of <span class="que_total"></span> Question
+            </div>
+
+            <div class="footer_right">
+                <div class="next_btn inactive">Next Question</div>
+            </div>
+        </div>
+    </div>
+    <!--/*===================Final Result Box=======================*/-->
+    <div class="result-box inactive">
+        <h2>Result</h2>
+        <div class="result">
+            <h3 class="total-que">Total Question : 5</h3>
+            <h3 class="right-ans">Right Answers</h3>
+            <h3 class="wrong-ans">Wrond Answer</h3>
+            <h3 class="percentage">percentage : </h3>
+        </div>
+
+        <div class="result_footer">
+            <div class="again_quiz">Again Quiz</div>
+            <div class="exit">Exit</div>
+        </div>
+    </div>
+    <!--Js link-->
+    <script defer src="Quiz.js"></script>
+    <script src="question.js"></script>
+
+    <script>
+        
+    </script>
+
+</body>
+</html>
